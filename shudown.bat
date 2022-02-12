@@ -1,0 +1,2 @@
+REM SHUTDOWN THE COMPUTER 
+shutdown /s
