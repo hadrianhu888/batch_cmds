@@ -7,7 +7,6 @@ cd %CDIR%
 call clean_temp.bat
 @REM call empty_recycle_bin.bat
 @REM call kill.bat
-sleep 1
 call shutdown.bat
 
 
