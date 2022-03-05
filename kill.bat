@@ -1,4 +1,4 @@
-@echo off
+echo on
 title Kill all running apps
 cd c:\windows\System32
 for /f "skip=3 tokens=1" %%i in ('TASKLIST /FI "USERNAME eq %userdomain%\%username%" /FI "STATUS eq running"') do (
@@ -15,3 +15,4 @@ echo.
 )
 )
 pause
+echo off
