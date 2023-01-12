@@ -1,2 +1,2 @@
-rd /s %systemdrive%\$Recycle.bin
+PowerShell.exe -NoProfile -Command Clear-RecycleBin -Confirm:$false
 
